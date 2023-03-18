@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random Hex Flipper</title>
+    <title>Counter Widget</title>
 
     <link rel="stylesheet" href="styles/styles.css" />
 
@@ -18,18 +18,15 @@
   </head>
   <body>
     <div class="body-content">
-      <div class="title-bar">
-        <p>Counter</p>
-      </div>
-
       <div class="page-content">
+        <div class="text-node">
+          <p id="count">0</p>
+        </div>
+
         <div class="button-box">
-          <div class="text-node">
-            <p id="count">0</p>
-          </div>
-          <div id="sub">-</div>
-          <div id="reset">Reset</div>
-          <div id="add">+</div>
+          <div class="button" id="sub">-</div>
+          <div class="button" id="reset">Reset</div>
+          <div class="button" id="add">+</div>
         </div>
       </div>
     </div>
